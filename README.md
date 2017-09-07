@@ -1,9 +1,9 @@
 # ReactNative
-
-## 1. Install & Project Start
 ```sh
 npm install -g create-react-native-app
-
+```
+## 1. Project Start
+```sh
 create-react-native-app appdir
 cd appdir
 npm start
