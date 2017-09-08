@@ -25,6 +25,7 @@ npm install --save react-navigation
 - React-Native Video: <a href="https://github.com/react-native-community/react-native-video">https://github.com/react-native-community/react-native-video</a>
 ```sh
 npm install --save react-native-video
+react-native link
 react-native link react-native-video
 ```
 
