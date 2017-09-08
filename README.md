@@ -21,3 +21,9 @@ npm start
 ```sh
 npm install --save react-navigation
 ```
+
+## Errors
+'react-native' is not recognized as an internal or external command, operable program or batch file.
+```sh
+npm install -g react-native-cli
+```
