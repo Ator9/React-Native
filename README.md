@@ -17,6 +17,12 @@ npm start
 ```
 
 ## Components
+- Uninstall Component
+```sh
+react-native unlink component
+npm uninstall --save component
+```
+
 - React Navigation: <a href="https://reactnavigation.org">https://reactnavigation.org</a>
 ```sh
 npm install --save react-navigation
