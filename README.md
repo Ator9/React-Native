@@ -9,11 +9,17 @@ cd app
 npm start
 ```
 
-## 2. Install <a href="https://expo.io/">Expo</a> on your phone.
+## 2. Install <a href="https://expo.io/">Expo</a> on your phone
 Fix with local ip address:
 ```sh
 set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.1.105
 npm start
+```
+
+## 3. Java Keytool & Final Build
+Generate key at C:\Program Files\Java\jdk1.8.0_141\bin (NO completar con datos en blanco)
+```sh
+keytool -genkeypair -alias alias_name -keyalg RSA -validity 20000 -keystore H:\project\key.keystore
 ```
 
 ## Components
