@@ -41,6 +41,9 @@ react-native link
 react-native link react-native-video
 ```
 
+## Tools
+- <a href="https://www.virtualbox.org/">VirtualBox</a>
+
 
 ## Errors
 'react-native' is not recognized as an internal or external command, operable program or batch file.
