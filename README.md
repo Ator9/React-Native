@@ -1,6 +1,7 @@
 # ReactNative
 ```sh
 npm install -g create-react-native-app
+npm install -g react-native-cli
 ```
 ## 1. Project Start
 ```sh
@@ -46,7 +47,7 @@ react-native link react-native-video
 
 
 ## Errors
-'react-native' is not recognized as an internal or external command, operable program or batch file.
+-
 ```sh
-npm install -g react-native-cli
+-
 ```
