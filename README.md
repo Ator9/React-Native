@@ -6,7 +6,9 @@ npm install -g react-native-cli
 
 ## 1. Project Start
 ```sh
-react-native init AwesomeProject
+react-native init app
+cd app
+react-native run-android
 ```
 
 ## 1. Project Start
