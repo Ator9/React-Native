@@ -3,6 +3,12 @@
 npm install -g create-react-native-app
 npm install -g react-native-cli
 ```
+
+## 1. Project Start
+```sh
+react-native init AwesomeProject
+```
+
 ## 1. Project Start
 ```sh
 create-react-native-app app
