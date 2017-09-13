@@ -52,6 +52,9 @@ react-native link react-native-video
 
 ## Tools
 - <a href="https://www.virtualbox.org/">VirtualBox</a>
+```sh
+java -version
+```
 
 
 ## Errors
