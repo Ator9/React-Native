@@ -32,12 +32,6 @@ keytool -genkeypair -alias alias_name -keyalg RSA -validity 20000 -keystore H:\p
 ```
 
 ## Components
-- Uninstall Component
-```sh
-react-native unlink component
-npm uninstall --save component
-```
-
 - React Navigation: <a href="https://reactnavigation.org">https://reactnavigation.org</a>
 ```sh
 npm install --save react-navigation
@@ -48,6 +42,12 @@ npm install --save react-navigation
 npm install --save react-native-video
 react-native link
 react-native link react-native-video
+```
+
+- Uninstall Component
+```sh
+react-native unlink component
+npm uninstall --save component
 ```
 
 ## Tools
