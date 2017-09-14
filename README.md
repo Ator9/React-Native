@@ -63,7 +63,7 @@ java -version
 ```sh
 npm cache clean
 ```
-- module appregistry is not a registered callable module
+- gradlew clean
 ```sh
 cd android & gradlew clean & cd ..
 ```
