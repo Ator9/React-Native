@@ -7,10 +7,12 @@ npm install -g react-native-cli
 ## 1. Project Start
 ```sh
 react-native init app & cd app
+
 react-native run-android
+react-native run-ios
 ```
 
-## 1. Project Start
+## 1. Expo Start
 ```sh
 create-react-native-app app
 cd app
