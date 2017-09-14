@@ -64,5 +64,5 @@ npm cache clean
 ```
 - module appregistry is not a registered callable module
 ```sh
-cd android ; clean gradlew ; cd ..
+cd android & gradlew clean & cd ..
 ```
