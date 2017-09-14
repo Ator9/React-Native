@@ -58,7 +58,7 @@ java -version
 
 
 ## Errors
-npm ERR! tar.unpack untar error
+- npm ERR! tar.unpack untar error
 ```sh
 npm cache clean
 ```
