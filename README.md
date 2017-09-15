@@ -13,6 +13,7 @@ react-native run-ios
 ```
 
 ## 2. Android Export
+APK @ ./android/app/build/outputs/apk/app-release.apk
 ```sh
 cd android & gradlew assembleRelease
 ```
