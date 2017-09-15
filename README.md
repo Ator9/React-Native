@@ -12,33 +12,32 @@ react-native run-android
 react-native run-ios
 ```
 
-## 2. Android Export
+## 2. Java Keytool
+Generate key at C:\Program Files\Java\jdk1.8.0_141\bin (NO completar con datos en blanco)
+```sh
+keytool -genkeypair -alias alias_name -keyalg RSA -validity 20000 -keystore H:\project\key.keystore
+```
+
+## 3. Android Export
 APK @ ./android/app/build/outputs/apk/app-release.apk
 ```sh
 cd android & gradlew assembleRelease
 ```
 
-## 1. Expo Start
+# Expo
+Install <a href="https://expo.io/">Expo</a> on your phone
 ```sh
 create-react-native-app app
 cd app
 npm start
 ```
-
-## 2. Install <a href="https://expo.io/">Expo</a> on your phone
 Fix with local ip address:
 ```sh
 set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.1.105
 npm start
 ```
 
-## 3. Java Keytool & Final Build
-Generate key at C:\Program Files\Java\jdk1.8.0_141\bin (NO completar con datos en blanco)
-```sh
-keytool -genkeypair -alias alias_name -keyalg RSA -validity 20000 -keystore H:\project\key.keystore
-```
-
-## Components
+# Components
 - React Navigation: <a href="https://reactnavigation.org">https://reactnavigation.org</a>
 ```sh
 npm install --save react-navigation
@@ -57,14 +56,14 @@ react-native unlink component
 npm uninstall --save component
 ```
 
-## Tools
+# Tools
 - <a href="https://www.virtualbox.org/">VirtualBox</a>
 ```sh
 java -version
 ```
 
 
-## Errors
+# Errors
 - npm ERR! tar.unpack untar error
 ```sh
 npm cache clean
