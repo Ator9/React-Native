@@ -12,10 +12,43 @@ react-native run-android
 react-native run-ios
 ```
 
-## 2. Java Keytool
+## 2. Keytool & Signing
+Place the key.keystore file under the android/app.
 Generate key at C:\Program Files\Java\jdk1.8.0_141\bin (NO completar con datos en blanco)
 ```sh
 keytool -genkeypair -alias alias_name -keyalg RSA -validity 20000 -keystore H:\project\key.keystore
+```
+Edit/Create the file ~/.gradle/gradle.properties (C:/Users/you/.gradle/)
+```sh
+MYAPP_RELEASE_STORE_FILE=my-release-key.keystore
+MYAPP_RELEASE_KEY_ALIAS=my-key-alias
+MYAPP_RELEASE_STORE_PASSWORD=*****
+MYAPP_RELEASE_KEY_PASSWORD=*****
+```
+Edit /android/app/build.gradle
+```sh
+...
+android {
+    ...
+    defaultConfig { ... }
+    signingConfigs {
+        release {
+            if (project.hasProperty('MYAPP_RELEASE_STORE_FILE')) {
+                storeFile file(MYAPP_RELEASE_STORE_FILE)
+                storePassword MYAPP_RELEASE_STORE_PASSWORD
+                keyAlias MYAPP_RELEASE_KEY_ALIAS
+                keyPassword MYAPP_RELEASE_KEY_PASSWORD
+            }
+        }
+    }
+    buildTypes {
+        release {
+            ...
+            signingConfig signingConfigs.release
+        }
+    }
+}
+...
 ```
 
 ## 3. Android Export
