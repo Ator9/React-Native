@@ -13,13 +13,11 @@ react-native run-ios
 ```
 
 ## 2. Keytool & Signing
-Place the key.keystore file under the android/app.
-
-Generate key at C:\Program Files\Java\jdk1.8.0_141\bin (NO completar con datos en blanco)
+Generate key at C:\Program Files\Java\jdk1.8.0_141\bin (NO completar con datos en blanco). Place the key.keystore file under the android/app.
 ```sh
 keytool -genkeypair -alias alias_name -keyalg RSA -validity 20000 -keystore H:\project\key.keystore
 ```
-Edit/Create the file ~/.gradle/gradle.properties (C:/Users/you/.gradle/)
+Edit/Create ~/.gradle/gradle.properties (C:/Users/you/.gradle/):
 ```sh
 MYAPP_RELEASE_STORE_FILE=my-release-key.keystore
 MYAPP_RELEASE_KEY_ALIAS=my-key-alias
