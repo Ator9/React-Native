@@ -56,6 +56,13 @@ APK @ ./android/app/build/outputs/apk/app-release.apk
 cd android & gradlew assembleRelease
 ```
 
+## 4. AndroidManifest.xml (android/app/src/main)
+Add xmlns:tools="http://schemas.android.com/tools" to manifest tag
+```sh
+<uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove" />
+```
+
+
 # Expo
 Install <a href="https://expo.io/">Expo</a> on your phone
 ```sh
