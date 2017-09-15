@@ -104,3 +104,4 @@ npm cache clean
 ```sh
 cd android & gradlew clean & cd ..
 ```
+- Remove Permissions (android.permission.READ_PHONE_STATE)
