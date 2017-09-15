@@ -12,6 +12,11 @@ react-native run-android
 react-native run-ios
 ```
 
+## 2. Android Export
+```sh
+cd android & gradlew assembleRelease
+```
+
 ## 1. Expo Start
 ```sh
 create-react-native-app app
