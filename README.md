@@ -1,5 +1,7 @@
 # ReactNative
 ```sh
+java -version
+
 npm install -g create-react-native-app
 npm install -g react-native-cli
 ```
@@ -98,9 +100,6 @@ npm uninstall --save component
 # Tools
 It is impossible to use VirtualBox and Microsoft Hyper-V at the same time. Disable Hyper-V (search "Windows Features").
 - <a href="https://www.virtualbox.org/">VirtualBox</a>
-```sh
-java -version
-```
 
 
 # Errors
