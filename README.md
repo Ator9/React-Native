@@ -1,11 +1,10 @@
 # Commands
 ```sh
+cd android & gradlew clean & cd ..
+```
+```sh
 react-native run-android
 react-native run-ios
-```
-Gradlew clean:
-```sh
-cd android & gradlew clean & cd ..
 ```
 Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
 ```sh
@@ -21,9 +20,6 @@ npm install -g react-native-cli
 ## 1. Project Start
 ```sh
 react-native init app & cd app
-
-react-native run-android
-react-native run-ios
 ```
 
 ## 2. Keytool & Signing
@@ -62,12 +58,6 @@ android {
     }
 }
 ...
-```
-
-## 3. Android Export
-APK @ ./android/app/build/outputs/apk/app-release.apk
-```sh
-cd android & gradlew assembleRelease
 ```
 
 ## 4. AndroidManifest.xml (android/app/src/main)
@@ -119,9 +109,5 @@ It is impossible to use VirtualBox and Microsoft Hyper-V at the same time. Disab
 - npm ERR! tar.unpack untar error
 ```sh
 npm cache clean
-```
-- gradlew clean
-```sh
-cd android & gradlew clean & cd ..
 ```
 - Remove Permissions (android.permission.READ_PHONE_STATE)
