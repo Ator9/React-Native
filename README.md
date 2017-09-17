@@ -1,7 +1,14 @@
-# ReactNative
+# Commands
 ```sh
-java -version
+react-native run-android
+react-native run-ios
 
+// Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
+cd android & gradlew assembleRelease
+```
+
+# ReactNative Install
+```sh
 npm install -g create-react-native-app
 npm install -g react-native-cli
 ```
