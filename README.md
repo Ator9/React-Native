@@ -3,13 +3,13 @@
 react-native run-android
 react-native run-ios
 ```
+Gradlew clean:
+```sh
+cd android & gradlew clean & cd ..
+```
 Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
 ```sh
 cd android & gradlew assembleRelease
-```
-gradlew clean:
-```sh
-cd android & gradlew clean & cd ..
 ```
 
 # ReactNative Install
