@@ -69,19 +69,6 @@ Add xmlns:tools="http://schemas.android.com/tools" to manifest tag
 ```
 
 
-# Expo
-Install <a href="https://expo.io/">Expo</a> on your phone
-```sh
-create-react-native-app app
-cd app
-npm start
-```
-Fix with local ip address:
-```sh
-set REACT_NATIVE_PACKAGER_HOSTNAME=192.168.1.105
-npm start
-```
-
 # Components
 - React Navigation: <a href="https://reactnavigation.org">https://reactnavigation.org</a>
 ```sh
@@ -112,4 +99,3 @@ It is impossible to use VirtualBox and Microsoft Hyper-V at the same time. Disab
 ```sh
 npm cache clean
 ```
-- Remove Permissions (android.permission.READ_PHONE_STATE)
