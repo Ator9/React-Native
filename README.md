@@ -75,11 +75,10 @@ Add xmlns:tools="http://schemas.android.com/tools" to manifest tag
 npm install --save react-navigation
 ```
 
-- React-Native Video: <a href="https://github.com/react-native-community/react-native-video">https://github.com/react-native-community/react-native-video</a>
+- React Native Elements: <a href="https://github.com/react-native-training/react-native-elements">https://github.com/react-native-training/react-native-elements</a>
 ```sh
-npm install --save react-native-video
-react-native link
-react-native link react-native-video
+npm i react-native-vector-icons --save && react-native link react-native-vector-icons
+npm i react-native-elements --save
 ```
 
 - Uninstall Component
