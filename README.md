@@ -8,7 +8,7 @@ react-native run-ios
 ```
 Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
 ```sh
-cd android & gradlew assembleRelease
+cd android & gradlew assembleRelease & cd ..
 ```
 
 # ReactNative Install
