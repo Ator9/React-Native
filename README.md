@@ -18,7 +18,6 @@ npm install -g react-native-cli
 npm install -g react-native-git-upgrade
 
 react-native-git-upgrade
-npm start -- --reset-cache
 ```
 
 ## 1. Project Start
