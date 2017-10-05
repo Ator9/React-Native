@@ -17,7 +17,6 @@ npm install -g create-react-native-app
 npm install -g react-native-cli
 npm install -g react-native-git-upgrade
 
-// @ app_folder
 react-native-git-upgrade
 ```
 
