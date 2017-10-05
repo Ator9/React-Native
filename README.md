@@ -15,6 +15,11 @@ cd android & gradlew assembleRelease & cd ..
 ```sh
 npm install -g create-react-native-app
 npm install -g react-native-cli
+npm install -g react-native-git-upgrade
+```
+Version Upgrade:
+```sh
+react-native-git-upgrade
 ```
 
 ## 1. Project Start
