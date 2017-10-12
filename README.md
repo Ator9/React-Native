@@ -63,7 +63,7 @@ android {
 ...
 ```
 
-## 4. AndroidManifest.xml (android/app/src/main)
+## AndroidManifest.xml (android/app/src/main)
 Add xmlns:tools="http://schemas.android.com/tools" to manifest tag
 ```sh
 <uses-permission android:name="android.permission.READ_PHONE_STATE" tools:node="remove" />
