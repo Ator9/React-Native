@@ -94,7 +94,7 @@ npm uninstall --save component
 It is impossible to use VirtualBox and Microsoft Hyper-V at the same time. Disable Hyper-V (search "Windows Features").
 - <a href="https://www.virtualbox.org/">VirtualBox</a>
 - <a href="http://romannurik.github.io/AndroidAssetStudio/">Android Icon Generator</a>
-
+- <a href="http://www.resizemypicture.com/">Image Resizer</a>
 
 # Errors
 - npm ERR! tar.unpack untar error
