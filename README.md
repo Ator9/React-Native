@@ -84,6 +84,11 @@ npm i react-native-vector-icons --save && react-native link react-native-vector-
 npm i react-native-elements --save
 ```
 
+- Firebase: <a href="https://www.npmjs.com/package/firebase">https://www.npmjs.com/package/firebase</a>
+```sh
+npm install --save firebase
+```
+
 - Uninstall Component
 ```sh
 react-native unlink component
