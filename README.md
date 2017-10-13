@@ -80,7 +80,8 @@ npm install --save react-navigation
 
 - React Native Elements: <a href="https://github.com/react-native-training/react-native-elements">https://github.com/react-native-training/react-native-elements</a>
 ```sh
-npm i react-native-vector-icons --save && react-native link react-native-vector-icons
+npm i react-native-vector-icons --save
+react-native link react-native-vector-icons
 npm i react-native-elements --save
 ```
 
