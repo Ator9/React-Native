@@ -80,19 +80,19 @@ npm install --save react-navigation
 
 - React Native Elements: <a href="https://github.com/react-native-training/react-native-elements">https://github.com/react-native-training/react-native-elements</a>
 ```sh
-npm i react-native-vector-icons --save
+npm i --save react-native-vector-icons
 react-native link react-native-vector-icons
-npm i react-native-elements --save
+npm i --save react-native-elements
 ```
 
 - Firebase: <a href="https://www.npmjs.com/package/firebase">https://www.npmjs.com/package/firebase</a>
 ```sh
-npm install --save firebase
+npm i --save firebase
 ```
 
 - Facebook SDK: <a href="https://github.com/facebook/react-native-fbsdk">https://github.com/facebook/react-native-fbsdk</a>
 ```sh
-npm i react-native-fbsdk --save
+npm i --save react-native-fbsdk
 react-native link react-native-fbsdk
 ```
 
