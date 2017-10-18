@@ -90,6 +90,12 @@ npm i react-native-elements --save
 npm install --save firebase
 ```
 
+- Faceboko SDK: <a href="https://www.npmjs.com/package/firebase">https://www.npmjs.com/package/firebase</a>
+```sh
+npm i react-native-fbsdk --save
+react-native link react-native-fbsdk
+```
+
 - Uninstall Component
 ```sh
 react-native unlink component
