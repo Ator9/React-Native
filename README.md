@@ -90,7 +90,7 @@ npm i react-native-elements --save
 npm install --save firebase
 ```
 
-- Faceboko SDK: <a href="https://www.npmjs.com/package/firebase">https://www.npmjs.com/package/firebase</a>
+- Facebook SDK: <a href="https://github.com/facebook/react-native-fbsdk">https://github.com/facebook/react-native-fbsdk</a>
 ```sh
 npm i react-native-fbsdk --save
 react-native link react-native-fbsdk
