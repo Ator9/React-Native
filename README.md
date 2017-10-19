@@ -93,6 +93,7 @@ npm i --save firebase
 ```
 
 - Facebook SDK: <a href="https://github.com/facebook/react-native-fbsdk">https://github.com/facebook/react-native-fbsdk</a>
+
 Follow Instructions
 ```sh
 npm i --save react-native-fbsdk
