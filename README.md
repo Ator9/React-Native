@@ -98,7 +98,7 @@ npm i --save firebase
 npm i --save react-native-fbsdk
 react-native link react-native-fbsdk
 
-# Facebook - Android Key Hashes
+# Facebook App Login - Android Key Hashes
 keytool -exportcert -alias YOUR_RELEASE_KEY_ALIAS -keystore YOUR_RELEASE_KEY_PATH | openssl sha1 -binary | openssl base64
 ```
 
