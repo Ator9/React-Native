@@ -93,6 +93,9 @@ npm i --save firebase
 
 # Functons: https://firebase.google.com/docs/functions/get-started
 npm i -g firebase-tools
+
+firebase init
+firebase deploy
 ```
 
 - Facebook SDK: <a href="https://github.com/facebook/react-native-fbsdk">https://github.com/facebook/react-native-fbsdk</a>
