@@ -90,6 +90,7 @@ npm i --save react-native-elements
 - Firebase: <a href="https://www.npmjs.com/package/firebase">https://www.npmjs.com/package/firebase</a>
 ```sh
 npm i --save firebase
+npm i -g firebase-tools
 ```
 
 - Facebook SDK: <a href="https://github.com/facebook/react-native-fbsdk">https://github.com/facebook/react-native-fbsdk</a>
