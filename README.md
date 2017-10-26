@@ -90,8 +90,10 @@ npm i --save react-native-elements
 - Firebase: <a href="https://www.npmjs.com/package/firebase">https://www.npmjs.com/package/firebase</a>
 ```sh
 npm i --save firebase
+```
 
-# Functons: https://firebase.google.com/docs/functions/get-started
+- Firebase Functions: <a href="https://firebase.google.com/docs/functions/get-started">https://firebase.google.com/docs/functions/get-started</a>
+```sh
 npm i -g firebase-tools
 
 firebase init
