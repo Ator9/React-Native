@@ -15,7 +15,6 @@ cd android & gradlew assembleRelease & cd ..
 
 # ReactNative Install / Upgrade
 ```sh
-npm install -g create-react-native-app
 npm install -g react-native-cli
 npm install -g react-native-git-upgrade
 
