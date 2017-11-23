@@ -119,6 +119,7 @@ npm uninstall --save component
 It is impossible to use VirtualBox and Microsoft Hyper-V at the same time. Disable Hyper-V (search "Windows Features").
 - <a href="https://www.virtualbox.org/">VirtualBox</a> (required)
 - <a href="http://www.oracle.com/technetwork/java/javase/downloads/index.html">Java SE Development Kit (JDK) 8+</a> (required)
+- <a href="https://developer.android.com/studio/install.html">Android Studio</a>
 - <a href="http://romannurik.github.io/AndroidAssetStudio/">Android Icon Generator</a>
 - <a href="http://www.resizemypicture.com/">Image Resizer</a>
 
