@@ -7,6 +7,8 @@ react-native run-android
 react-native run-ios
 
 react-native start
+
+adb logcat
 ```
 Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
 ```sh
