@@ -12,9 +12,10 @@ adb logcat
 ```
 Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
 ```sh
+# Windows:
 cd android & gradlew assembleRelease & cd ..
-```
-```sh
+
+# Linux:
 cd android ; ./gradlew assembleRelease ; cd ..
 ```
 
