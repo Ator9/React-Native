@@ -1,8 +1,5 @@
 # Commands
 ```sh
-cd android & gradlew clean & cd ..
-```
-```sh
 react-native run-android
 react-native run-ios
 
@@ -10,12 +7,20 @@ react-native start
 
 adb logcat
 ```
+Clean
+```sh
+# Windows
+cd android & gradlew clean & cd ..
+
+# Linux
+cd android ; ./gradlew clean ; cd ..
+```
 Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
 ```sh
-# Windows:
+# Windows
 cd android & gradlew assembleRelease & cd ..
 
-# Linux:
+# Linux
 cd android ; ./gradlew assembleRelease ; cd ..
 ```
 
