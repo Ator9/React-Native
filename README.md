@@ -14,6 +14,9 @@ Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
 ```sh
 cd android & gradlew assembleRelease & cd ..
 ```
+```sh
+cd android ; ./gradlew assembleRelease ; cd ..
+```
 
 # ReactNative Install / Upgrade
 ```sh
