@@ -34,7 +34,8 @@ react-native-git-upgrade
 
 ## 1. Project Start
 ```sh
-react-native init app & cd app
+react-native init app
+react-native init app --version 0.53.3
 ```
 
 ## 2. Keytool & Signing
