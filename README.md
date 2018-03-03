@@ -135,6 +135,7 @@ It is impossible to use VirtualBox and Microsoft Hyper-V at the same time. Disab
 - <a href="http://romannurik.github.io/AndroidAssetStudio/">Android Icon Generator</a>
 - <a href="https://makeappicon.com/">IOS Icon Generator</a>
 - <a href="http://www.resizemypicture.com/">Image Resizer</a>
+- <a href="https://www.youtube.com/watch?v=tnbOcpwJGa8">Tutorial Submit App IOS / XCODE</a>
 
 # Errors
 - npm ERR! tar.unpack untar error
