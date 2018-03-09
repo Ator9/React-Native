@@ -127,7 +127,7 @@ npm uninstall --save component
 ```
 
 # Firebase Messaging
-- Manual Installation <a href="https://firebase.google.com/docs/android/setup">Tutorial</a>
+- <a href="https://firebase.google.com/docs/android/setup">Manual Installation</a>
 
 
 # Software / Tools
