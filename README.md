@@ -126,8 +126,9 @@ react-native unlink component
 npm uninstall --save component
 ```
 
-# Firebase Messaging
-- <a href="https://firebase.google.com/docs/android/setup#manually_add_firebase">Android Manual Installation</a>
+# Firebase Messaging - Android
+- <a href="https://firebase.google.com/docs/android/setup#manually_add_firebase">Install Firebase</a>
+- <a href="https://firebase.google.com/docs/cloud-messaging/android/client">Install Messaging</a>
 
 
 # Software / Tools
