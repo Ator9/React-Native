@@ -103,6 +103,11 @@ npm i --save react-native-elements
 npm i --save firebase
 ```
 
+- Firebase Messaging: <a href="https://firebase.google.com/docs/android/setup">Manual Installation:</a>
+```sh
+
+```
+
 - Firebase Functions: <a href="https://firebase.google.com/docs/functions/get-started">https://firebase.google.com/docs/functions/get-started</a>
 ```sh
 npm i -g firebase-tools
