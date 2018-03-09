@@ -84,7 +84,6 @@ Add xmlns:tools="http://schemas.android.com/tools" to manifest tag
 <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" tools:node="remove" />
 ```
 
-
 # Components
 - React Navigation: <a href="https://reactnavigation.org">https://reactnavigation.org</a>
 ```sh
@@ -101,11 +100,6 @@ npm i --save react-native-elements
 - Firebase: <a href="https://www.npmjs.com/package/firebase">https://www.npmjs.com/package/firebase</a>
 ```sh
 npm i --save firebase
-```
-
-- Firebase Messaging: <a href="https://firebase.google.com/docs/android/setup">Manual Installation:</a>
-```sh
-
 ```
 
 - Firebase Functions: <a href="https://firebase.google.com/docs/functions/get-started">https://firebase.google.com/docs/functions/get-started</a>
@@ -131,6 +125,10 @@ keytool -exportcert -alias YOUR_RELEASE_KEY_ALIAS -keystore YOUR_RELEASE_KEY_PAT
 react-native unlink component
 npm uninstall --save component
 ```
+
+# Firebase Messaging
+- Manual Installation <a href="https://firebase.google.com/docs/android/setup">Tutorial</a>
+
 
 # Software / Tools
 It is impossible to use VirtualBox and Microsoft Hyper-V at the same time. Disable Hyper-V (search "Windows Features").
