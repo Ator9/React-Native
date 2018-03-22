@@ -97,6 +97,11 @@ react-native link react-native-vector-icons
 npm i --save react-native-elements
 ```
 
+- React Native FCM: <a href="https://github.com/evollu/react-native-fcm">https://github.com/evollu/react-native-fcm</a>
+```sh
+npm i --save react-native-fcm
+```
+
 - Firebase: <a href="https://www.npmjs.com/package/firebase">https://www.npmjs.com/package/firebase</a>
 ```sh
 npm i --save firebase
@@ -125,10 +130,6 @@ keytool -exportcert -alias YOUR_RELEASE_KEY_ALIAS -keystore YOUR_RELEASE_KEY_PAT
 react-native unlink component
 npm uninstall --save component
 ```
-
-# Firebase Messaging - Android
-- <a href="https://firebase.google.com/docs/android/setup#manually_add_firebase">Install Firebase</a>
-- <a href="https://firebase.google.com/docs/cloud-messaging/android/client">Install Messaging</a>
 
 
 # Software / Tools
