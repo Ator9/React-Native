@@ -100,6 +100,7 @@ npm i --save react-native-elements
 - React Native FCM: <a href="https://github.com/evollu/react-native-fcm">https://github.com/evollu/react-native-fcm</a>
 ```sh
 npm i --save react-native-fcm
+react-native link react-native-fcm
 ```
 
 - Firebase: <a href="https://www.npmjs.com/package/firebase">https://www.npmjs.com/package/firebase</a>
