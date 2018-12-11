@@ -13,7 +13,7 @@ Clean
 cd android & gradlew clean & cd ..
 
 # Linux
-cd android ; ./gradlew clean ; cd ..
+cd android ; sudo ./gradlew clean ; cd ..
 ```
 Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
 ```sh
