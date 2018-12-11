@@ -21,7 +21,7 @@ Export (APK @ ./android/app/build/outputs/apk/app-release.apk):
 cd android & gradlew assembleRelease & cd ..
 
 # Linux
-cd android ; ./gradlew assembleRelease ; cd ..
+cd android ; sudo ./gradlew assembleRelease ; cd ..
 ```
 
 # ReactNative Install / Upgrade
